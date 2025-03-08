@@ -15,7 +15,7 @@ public class Card {
     private String number;
 
     //dei um novo nome a tabela pra caso a palavra limit seja uma palavre reservada.
-    @Column(name = "available_limit", scale = 13, precision = 2)
+    @Column(name = "available_limit", precision = 13, scale = 2)
     private BigDecimal limit;
 
     public Long getId() {
